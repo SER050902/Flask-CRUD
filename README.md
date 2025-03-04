@@ -38,12 +38,29 @@ Este es un proyecto CRUD (Crear, Leer, Actualizar y Eliminar) desarrollado con F
 
 ##  Estructura del proyecto
 ```
-flask_crud_videojuegos/
-│── templates/
-│   ├── index.html
-│── app.py
-│── requirements.txt
-│── videojuegos.db
+Flask-CRUD/
+├── app.py                    # Archivo principal de la aplicación
+├── dp.py                     # Archivo de base de datos
+├── README.md                 # Documentación del proyecto
+├── static/
+│   └── css/
+│       └── vi-de.css         # Estilos de la aplicación
+├── templates/
+│   ├── base.html             # Plantilla base
+│   ├── delete.html           # Página para eliminar registros
+│   ├── desarrollador.html    # Gestión de desarrolladores
+│   ├── index.html            # Página principal
+│   ├── inser_desarrollador.html   # Formulario para agregar desarrollador
+│   ├── inser_videojuego.html      # Formulario para agregar videojuego
+│   ├── login.html            # Página de inicio de sesión
+│   ├── modificar_desarrollador.html  # Modificar desarrollador
+│   ├── modificar_videojuego.html  # Modificar videojuego
+│   ├── no_admin_desarrollador.html  # Vista sin privilegios (desarrollador)
+│   ├── no_admin_index.html   # Vista sin privilegios (inicio)
+│   ├── no_admin_videojuego.html  # Vista sin privilegios (videojuego)
+│   └── videojuego.html       # Gestión de videojuegos
+├── usuarios.txt              # Archivo de almacenamiento de usuarios
+└── VI-DE.sqlite              # Base de datos SQLite
 ```
 
 ##  Licencia
