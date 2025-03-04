@@ -34,6 +34,7 @@ Este es un proyecto CRUD (Crear, Leer, Actualizar y Eliminar) desarrollado con F
    python app.py
    ```
 5. Acceder a la aplicación en el navegador: `http://127.0.0.1:5000`
+6. Los usuarios y contraseñas estan en fichero contraseña.txt para accedir login
 
 ##  Estructura del proyecto
 ```
