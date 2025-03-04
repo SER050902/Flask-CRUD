@@ -1,12 +1,49 @@
-Use and open run
-You need scripts flask for running the project
+# Flask CRUD - Videojuegos y Desarrolladores
 
-How install flask in my virtual environment?
+Este es un proyecto CRUD (Crear, Leer, Actualizar y Eliminar) desarrollado con Flask y SQLite. Permite gestionar videojuegos y desarrolladores, proporcionando una interfaz sencilla para realizar operaciones básicas sobre la base de datos.
 
-1. go create virtual environment
-2. active virtual environment
-3. go path "Srcipts"
-4. Use terminal and execute this command for install flask:"pip install flask"
-5. go configurations run/debug
-6. add new configuration "Flask server"
-7.Anyway, if you set everything up, now you can run
+##  Características
+- Listar videojuegos y desarrolladores.
+- Agregar nuevos videojuegos y desarrolladores.
+- Eliminar videojuegos y desarrolladores.
+- Uso de Flask y SQLAlchemy para la gestión de la base de datos.
+
+##  Tecnologías utilizadas
+- Python 3
+- Flask
+- Flask-SQLAlchemy
+- SQLite
+
+##  Instalación y ejecución
+1. Clonar este repositorio:
+   ```sh
+   git clone https://github.com/tuusuario/flask_crud_videojuegos.git
+   cd flask_crud_videojuegos
+   ```
+2. Crear un entorno virtual (opcional pero recomendado):
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # En Windows: venv\Scripts\activate
+   ```
+3. Instalar las dependencias:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Ejecutar la aplicación:
+   ```sh
+   python app.py
+   ```
+5. Acceder a la aplicación en el navegador: `http://127.0.0.1:5000`
+
+##  Estructura del proyecto
+```
+flask_crud_videojuegos/
+│── templates/
+│   ├── index.html
+│── app.py
+│── requirements.txt
+│── videojuegos.db
+```
+
+##  Licencia
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
