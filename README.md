@@ -17,8 +17,8 @@ Este es un proyecto CRUD (Crear, Leer, Actualizar y Eliminar) desarrollado con F
 ##  Instalación y ejecución
 1. Clonar este repositorio:
    ```sh
-   git clone https://github.com/tuusuario/flask_crud_videojuegos.git
-   cd flask_crud_videojuegos
+   git clone https://github.com/SER050902/Flask-CRUD.git
+   cd Flask-CRUD
    ```
 2. Crear un entorno virtual (opcional pero recomendado):
    ```sh
